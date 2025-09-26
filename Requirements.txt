@@ -1,1 +1,6 @@
+##Based on your code, the only external library you’re using is requests.
+##The rest (csv, time, datetime) are part of Python’s standard librar
 
+requests>=2.0.0
+
+pip freeze | grep requests
